@@ -18,6 +18,8 @@ public class AmazonLogin {
 		driver.findElement(By.id("nav-link-accountList-nav-line-1")).click();
 		driver.findElement(By.id("ap_email")).sendKeys("8499913251");
 		driver.findElement(By.className("a-button-input")).click();
+		driver.findElement(By.id("ap_password")).sendKeys("849991329n");
+		
 		
 		
 		
